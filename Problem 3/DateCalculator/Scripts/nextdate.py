@@ -16,7 +16,7 @@ class Nextdate:
             value = "Invalid value for date"
         elif not args[1] in range(13):
             value = "Invalid value for month"
-        elif not args[2] in range(1799, 2101):
+        elif not args[2] in range(1800, 2101):
             value = "year value should be between 1800 to 2100"
 
         return value
