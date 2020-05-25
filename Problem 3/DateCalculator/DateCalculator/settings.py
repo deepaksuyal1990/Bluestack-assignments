@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+print(os.path.join(BASE_DIR, "DateCalculator", "static"))
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+
 
 # Application definition
 
