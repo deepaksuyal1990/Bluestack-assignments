@@ -12,9 +12,9 @@ class Nextdate:
         :returns Respective validation message
         """
         value = "Pass"
-        if not args[0] in range(32):
+        if not args[0] in range(1, 32):
             value = "Invalid value for date"
-        elif not args[1] in range(13):
+        elif not args[1] in range(1, 13):
             value = "Invalid value for month"
         elif not args[2] in range(1800, 2101):
             value = "year value should be between 1800 to 2100"
